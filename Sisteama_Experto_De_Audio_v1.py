@@ -221,9 +221,6 @@ class VirtualAudioEngineer:
         recommendations = self.engine.infer(demo_facts)
         print(self.format_output(recommendations))
 
-# ==========================================
-# EJECUCIÓN DEL PROGRAMA
-# ==========================================
 if __name__ == "__main__":
     system = VirtualAudioEngineer()
     
